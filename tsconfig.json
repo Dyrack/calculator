@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "outDir": "./dist",      // Скомпилированные файлы в dist
+    "rootDir": "./src",      // Исходные файлы в src
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],  // Компилировать все файлы в src
+  "exclude": ["node_modules"]
+}
